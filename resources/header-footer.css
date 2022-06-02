@@ -124,6 +124,7 @@ header img{
 
 header ul{
     font-size: 0.9em;
+    margin-right: 2em;
 }
 
 footer img{
@@ -140,6 +141,7 @@ footer .button{
 }
 
 }
+
 
 @media only screen and (max-width: 480px) {
 
@@ -172,7 +174,13 @@ footer .button{
 @media only screen and (max-width: 360px){
 
     header img{
-        width: 120%;
+        width: 100%;
         height: auto;
+        padding-left: 0;
+        margin-left: 0.5em;
+    }
+
+    header ul li{
+        /* font-size: 0.5em; */
     }
 }
